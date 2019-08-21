@@ -96,5 +96,33 @@ function confirmDelete(id){
 	return false;
 }
 </script>
+
+<script>
+	var websocket = null;
+	if ('WebSocket' in window){
+		websocket = new WebSocket('ws://');
+	} else {
+		alert("该浏览器不支持");
+	}
+	websocket.onopen = function (event) {
+		console.log("建立连接");
+	}
+	websocket.onclose = function (event) {
+		console.log("关闭连接");
+	}
+	websocket.onmessage = function (event) {
+		console.log("收到消息："+event.data);
+	}
+	websocket.onerror = function () {
+		alert("websocket通信发生错误！");
+	}
+	websocket.onbeforeunload = function () {
+		websocket.close();
+	}
+
+
+</script>
+
+
 </body>
 </html>

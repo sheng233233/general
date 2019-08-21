@@ -18,7 +18,7 @@ public class TableController {
     @Autowired
     TableService ts;
 
-    @RequestMapping("showAll")
+    @RequestMapping("/showAll")
     public ModelAndView showAll(){
         ModelAndView mv = new ModelAndView();
         Map<Integer, Boolean> tables = ts.getAll();
@@ -28,13 +28,14 @@ public class TableController {
     }
 
     @ResponseBody
-    @RequestMapping("edit")
+    @RequestMapping("/edit")
     public Object edit(Integer num){
         HashMap<String, Object> map = new HashMap<>();
         ts.setNum(num);
         map.put("success",true);
         return map;
     }
+
 
 
 
