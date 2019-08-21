@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="edu.zut.mapper.IngreMapper" >
+    
+    <select id="getAll" resultType="edu.zut.entity.Ingre">
+        select * from ingre;
+    </select>
+
+    <select id="findById" resultType="edu.zut.entity.Ingre" parameterType="java.lang.Integer">
+        select * from ingre where id=#{id};
+    </select>
+
+    <select id="getNum" resultType="java.lang.Integer">
+        select count(id) from ingre
+    </select>
+
+    <update id="update">
+        UPDATE ingre SET `name`=#{name} ,surplus=#{surplus} WHERE id=#{id}
+    </update>
+
+    <update id="delete" parameterType="java.lang.Integer">
+        delete from ingre where id=#{id}
+    </update>
+
+    <insert id="insert">
+        insert into ingre(`name`,surplus) values(#{name},#{surplus})
+    </insert>
+
+
+
+</mapper>

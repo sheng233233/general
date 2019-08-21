@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="edu.zut.mapper.FoodMapper" >
+
+    <resultMap id="single" type="edu.zut.entity.Food">
+        <result column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="price" property="price"/>
+        <result column="msg" property="msg"/>
+        <result column="img" property="img"/>
+        <result column="type" property="type"/>
+        <result column="count" property="count"/>
+    </resultMap>
+
+    <select id="selectAll" resultMap="single">
+        select *
+        from food
+    </select>
+
+    <select id="findById" resultMap="single" parameterType="java.lang.Integer">
+        select *
+        from food
+        where id = #{id}
+    </select>
+
+
+    <select id="getNum" resultType="java.lang.Integer">
+        select count(id) num
+        from food
+    </select>
+
+    <insert id="insert">
+        INSERT INTO food(`name`,price,msg,img,type)
+        VALUES(#{name},#{price},#{msg},#{img},#{type})
+    </insert>
+
+    <update id="updateByid">
+        UPDATE food SET `name`=#{name},type=#{type} ,price=#{price} ,msg=#{msg} ,img=#{img} WHERE id=#{id}
+    </update>
+
+    <delete id="deleteById" parameterType="java.lang.Integer">
+        delete from food where id=#{id}
+    </delete>
+
+
+</mapper>

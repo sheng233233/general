@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="edu.zut.mapper.OrderMapper" >
+  
+    <select id="getAll" resultType="edu.zut.entity.Order">
+        SELECT * FROM `order`
+    </select>
+
+    <select id="findById" parameterType="java.lang.Integer" resultType="edu.zut.entity.Order">
+        select * from `order` where id=#{id}
+    </select>
+
+    <select id="findByStatus" parameterType="java.lang.Integer" resultType="edu.zut.entity.Order">
+        select * from `order` where status=#{status}
+    </select>
+
+    <select id="getNum" resultType="java.lang.Integer">
+        SELECT count(id) FROM `order`
+    </select>
+
+    <delete id="delete" parameterType="java.lang.Integer">
+        delete from `order` where id=#{id}
+    </delete>
+
+    <insert id="insert">
+        INSERT INTO `order`(tid,content,`status`,createTime) VALUES(#{tid},#{content},#{status},#{createTime})
+    </insert>
+  
+  
+</mapper>
