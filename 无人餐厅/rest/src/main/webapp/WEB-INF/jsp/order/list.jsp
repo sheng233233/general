@@ -117,7 +117,7 @@ function confirmDelete(id){
 			)
 		}else {
 			$.post(
-					'${pageContext.request.contextPath}/api/order/add?accept=0&content='+event.data
+					'${pageContext.request.contextPath}/api/order/add?accept=2&content='+event.data
 			)
 		}
         $('html').load('/api/order/listOrder');

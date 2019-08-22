@@ -87,14 +87,15 @@ public class CustomerController {
      * @param order
      */
     @RequestMapping("/api/order/cart")
-    public void saveOrder(Order order){
+    public Result saveOrder(Order order){
         if (order!=null){
             //发送websocket消息
             webSocket.sendMessage(order.getTid()+"号桌产生新的订单!\n"+order.getContent());
+            return ResultFactory.buildSuccessResult("订单已发送");
         }else {
             webSocket.sendMessage(null);
+            return ResultFactory.buildFailResult("订单为空");
         }
-
     }
 
     /**
@@ -102,10 +103,12 @@ public class CustomerController {
      * @param tableNum
      */
     @RequestMapping("/api/table/order")
-    public void revoke(Integer tableNum) {
+    public Result revoke(Integer tableNum) {
         if (tableNum != null){
             ts.revoke(tableNum);
+            return ResultFactory.buildSuccessResult("桌号已回收");
         }
+        return ResultFactory.buildFailResult("桌号为空");
     }
 
 
