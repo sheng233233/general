@@ -18,11 +18,20 @@ public class IngreController {
     IngreService is;
 
 
+    /**
+     * 跳转新增页
+     * @return
+     */
     @RequestMapping("toAdd")
     public String toAdd(){
         return "ingre/add";
     }
 
+    /**
+     * 添加记录
+     * @param ingre
+     * @return
+     */
     @RequestMapping("/add")
     public ModelAndView add(Ingre ingre){
         ModelAndView mv = new ModelAndView();
@@ -31,6 +40,11 @@ public class IngreController {
         return mv;
     }
 
+    /**
+     * 向后台展示所有食材信息
+     * @param pageNum
+     * @return
+     */
     @RequestMapping("/listIngre")
     public ModelAndView listIngre(String pageNum){
         ModelAndView mv = new ModelAndView();
@@ -48,6 +62,11 @@ public class IngreController {
         return mv;
     }
 
+    /**
+     * 根据id查询后跳转到编辑页面
+     * @param id
+     * @return
+     */
     @RequestMapping("/toEdit")
     public ModelAndView toEdit(Integer id){
         ModelAndView mv = new ModelAndView();
@@ -58,6 +77,11 @@ public class IngreController {
         return mv;
     }
 
+    /**
+     * 修改食材记录
+     * @param ingre
+     * @return
+     */
     @RequestMapping("/edit")
     public ModelAndView edit(Ingre ingre){
         ModelAndView mv = new ModelAndView();
@@ -67,6 +91,11 @@ public class IngreController {
         return mv;
     }
 
+    /**
+     * 删除食材记录
+     * @param id
+     * @return
+     */
     @RequestMapping("delete")
     public ModelAndView delete(Integer id){
         ModelAndView mv = new ModelAndView();

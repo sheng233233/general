@@ -29,15 +29,15 @@ public class FoodController {
     FoodService fs;
 
 
-
+    /**
+     * 后台展示所有food详情
+     * @param pageNum 给定当前页,可用于分页查询
+     * @return
+     */
     @RequestMapping("/listFood")
     public ModelAndView getAll(String pageNum){  //接收当前页
         ModelAndView mv = new ModelAndView();
         List<Food> list = fs.getAll();
-        for (Food food:list) {
-
-        }
-
         Page page = new Page();
         int num = 1;  //若无pageNum参数,默认为1
         if (pageNum != null){
@@ -52,11 +52,23 @@ public class FoodController {
         return mv;
     }
 
+    /**
+     * 跳转向新增页面
+     * @return
+     */
     @RequestMapping("toAdd")
     public String toAdd(){
         return "food/add";
     }
 
+    /**
+     * 添加food记录
+     * @param imgFile 前端传来的多部分文件
+     * @param request 获得真是路径的request
+     * @param food 封装的food
+     * @return
+     * @throws Exception
+     */
     @RequestMapping("/add")//添加新品,将图片保存至项目真实路径,将图片名称存入数据库
     public ModelAndView add(@RequestParam MultipartFile imgFile, HttpServletRequest request,Food food) throws Exception {
         ModelAndView mv = new ModelAndView();
@@ -76,6 +88,12 @@ public class FoodController {
         return mv;
     }
 
+    /**
+     * 将相对路径转化为真是路径
+     * @param path  相对路径
+     * @param request
+     * @return 真实路径
+     */
     public String getRealPath(String path, HttpServletRequest request){
         @SuppressWarnings("deprecation")
         String realPath = request.getRealPath(path);
@@ -86,6 +104,11 @@ public class FoodController {
         return realPath;
     }
 
+    /**
+     * 通过id查询后跳转到food详情页
+     * @param id id
+     * @return
+     */
     @RequestMapping("/details")
     public ModelAndView details(Integer id){
         ModelAndView mv = new ModelAndView();
@@ -94,6 +117,11 @@ public class FoodController {
         return mv;
     }
 
+    /**
+     * 通过id查询后跳转到food编辑页
+     * @param id id
+     * @return
+     */
    @RequestMapping("/toEdit")
     public ModelAndView toEdit(Integer id){
        ModelAndView mv = new ModelAndView();
@@ -102,6 +130,14 @@ public class FoodController {
        return mv;
    }
 
+    /**
+     * 修改food详情
+     * @param imgFile
+     * @param request
+     * @param food
+     * @return
+     * @throws Exception
+     */
    @RequestMapping("edit")
     public ModelAndView edit(@RequestParam MultipartFile imgFile, HttpServletRequest request,Food food) throws Exception {
        ModelAndView mv = new ModelAndView();
@@ -120,6 +156,11 @@ public class FoodController {
        return mv;
    }
 
+    /**
+     * 删除food记录
+     * @param id
+     * @return
+     */
    @RequestMapping("/delete")
     public ModelAndView delete(Integer id){
         ModelAndView mv = new ModelAndView();

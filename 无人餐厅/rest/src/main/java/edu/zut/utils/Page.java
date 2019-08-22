@@ -22,15 +22,25 @@ public class Page {
 	public int getPageNum() {
 		return pageNum;
 	}
+
+	/**
+	 * 设置当前页
+	 * @param pageNum
+	 */
 	public void setPageNum(int pageNum) {
 		this.pageNum = pageNum;
-		this.pageMax = totalLine%pageSize==0?totalLine/pageSize:(totalLine/pageSize)+1;
-		this.pageStart = (pageNum-1)*pageSize;
+		this.pageMax = totalLine%pageSize==0?totalLine/pageSize:(totalLine/pageSize)+1; //一并设置最大页数
+		this.pageStart = (pageNum-1)*pageSize;//每页起始
 	}
 	
 	public int getTotalLine() {
 		return totalLine;
 	}
+
+	/**
+	 * 设置总页数,一定要在setpagenum之情调用
+	 * @param totalLine
+	 */
 	public void setTotalLine(int totalLine) {
 		this.totalLine = totalLine;
 	}

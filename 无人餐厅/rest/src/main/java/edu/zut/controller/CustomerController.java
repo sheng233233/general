@@ -19,6 +19,10 @@ import java.io.FileInputStream;
 import java.util.HashMap;
 import java.util.List;
 
+
+/**
+ * 用于处理客户端发送的请求
+ */
 @Controller
 public class CustomerController {
 
@@ -35,6 +39,12 @@ public class CustomerController {
 
     static String truePath = ""; //真实路径
 
+    /**
+     * 将数据库中存储的相对路径映射成真实路径下文件,返回byte数组
+     * @param img 数据库中存储的相对路径
+     * @return 真实数据
+     * @throws Exception  io异常
+     */
     private byte[] getDataByImg(String img) throws  Exception{
         File file = new File(truePath+img);
         FileInputStream input = new FileInputStream(file);
@@ -44,6 +54,12 @@ public class CustomerController {
         return data;
     }
 
+    /**
+     * 用户起始请求,返回分配的桌号和菜单
+     * @param request 用于获得项目真实路径,以便获得图像数据
+     * @return 分配的桌号和菜单
+     * @throws Exception
+     */
     @ResponseBody
     @RequestMapping("/api/table/request")
     public Result getTableAndFoods(HttpServletRequest request) throws Exception{
@@ -66,8 +82,10 @@ public class CustomerController {
     }
 
 
-
-
+    /**
+     * 用户提交订单,处理后向后台发送消息
+     * @param order
+     */
     @RequestMapping("/api/order/cart")
     public void saveOrder(Order order){
         if (order!=null){
@@ -79,6 +97,10 @@ public class CustomerController {
 
     }
 
+    /**
+     * 回收桌号,将桌号池中相应桌号置为可用
+     * @param tableNum
+     */
     @RequestMapping("/api/table/order")
     public void revoke(Integer tableNum) {
         if (tableNum != null){

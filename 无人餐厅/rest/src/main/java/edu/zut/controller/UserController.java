@@ -15,6 +15,11 @@ public class UserController {
     @Autowired
     UserService us;
 
+    /**
+     * MD5加密口令
+     * @param text
+     * @return
+     */
     public String encryption(String text){
         String cipher1 = DigestUtils.md5DigestAsHex(text.getBytes());  //md5加密
         String cipher2 = new StringBuffer(DigestUtils.md5DigestAsHex(text.getBytes())).reverse().substring(0,6);//取反截取6位
@@ -22,10 +27,15 @@ public class UserController {
         return cipher;
     }
 
+    /**
+     * 登录
+     * @param user
+     * @return
+     */
     @RequestMapping("/login")
     public ModelAndView login(User user){
         ModelAndView mv = new ModelAndView();
-        user.setPwd(encryption(user.getPwd()));
+        user.setPwd(encryption(user.getPwd()));//明文传输,加密后验证数据库
         if(us.findByNameAndPwd(user) != null){
             mv.setViewName("admin");
         }else {

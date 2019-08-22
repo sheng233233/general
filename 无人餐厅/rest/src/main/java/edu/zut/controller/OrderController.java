@@ -20,6 +20,11 @@ public class OrderController {
     @Autowired
     OrderService os;
 
+    /**
+     * 向后台展示所有订单记录
+     * @param pageNum
+     * @return
+     */
     @RequestMapping("listOrder")
     public ModelAndView list(String pageNum){
         ModelAndView mv = new ModelAndView();
@@ -38,6 +43,11 @@ public class OrderController {
         return mv;
     }
 
+    /**
+     * 根据订单的不同状态查找订单
+     * @param status 状态 0未受理  1 已接受  2 已拒绝
+     * @return
+     */
     @RequestMapping("find")
     public ModelAndView find(Integer status){
         ModelAndView mv = new ModelAndView();
@@ -57,6 +67,11 @@ public class OrderController {
         return mv;
     }
 
+    /**
+     * 根据id查询记录后跳转详情页面
+     * @param id
+     * @return
+     */
     @RequestMapping("details")
     public ModelAndView details(Integer id){
         ModelAndView mv = new ModelAndView();
@@ -67,6 +82,11 @@ public class OrderController {
         return mv;
     }
 
+    /**
+     * 删除记录
+     * @param id 需要删除订单的id
+     * @return
+     */
     @RequestMapping("delete")
     public ModelAndView delete(Integer id){
         ModelAndView mv = new ModelAndView();
@@ -77,6 +97,11 @@ public class OrderController {
         return mv;
     }
 
+    /**
+     * 新加order记录
+     * @param accept 是否接受
+     * @param content  订单的所有内容包含id 总额 内容
+     */
     @RequestMapping("add")
     public void add(Integer accept,String content){
         String[] lines = content.split("!");

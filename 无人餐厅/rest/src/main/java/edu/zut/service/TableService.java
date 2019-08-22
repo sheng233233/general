@@ -20,8 +20,8 @@ public interface TableService {
 
     /**
      * 回收桌号
-     * @param num
-     * @return
+     * @param num 回收的桌号
+     * @return 成功或失败
      */
     public boolean revoke(Integer num);
 

@@ -18,6 +18,10 @@ public class TableController {
     @Autowired
     TableService ts;
 
+    /**
+     * 后台展示桌子使用情况
+     * @return
+     */
     @RequestMapping("/showAll")
     public ModelAndView showAll(){
         ModelAndView mv = new ModelAndView();
@@ -27,6 +31,11 @@ public class TableController {
         return mv;
     }
 
+    /**
+     * 修改桌子总数
+     * @param num
+     * @return
+     */
     @ResponseBody
     @RequestMapping("/edit")
     public Object edit(Integer num){
