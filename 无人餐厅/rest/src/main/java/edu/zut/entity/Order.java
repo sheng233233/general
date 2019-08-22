@@ -30,7 +30,7 @@ public class Order {
     }
 
     public String getContent() {
-        return content.split(" ")[1];
+        return content;
     }
 
     public void setContent(String content) {

@@ -33,6 +33,9 @@ public class FoodController {
     public ModelAndView getAll(String pageNum){  //接收当前页
         ModelAndView mv = new ModelAndView();
         List<Food> list = fs.getAll();
+        for (Food food:list) {
+            
+        }
 
         Page page = new Page();
         int num = 1;  //若无pageNum参数,默认为1

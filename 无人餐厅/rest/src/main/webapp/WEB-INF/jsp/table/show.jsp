@@ -58,7 +58,7 @@
                         <div class="table-able" id="${item.key}"><h4 class="fount" style="color: white">${item.key}号桌,可用</h4></div>
                     </c:if>
                     <c:if test="${not item.value}">
-                        <div class="table-disable" id="${item.key}"><h4 class="fount" style="color: black">${item.key}号桌,可用</h4></div>
+                        <div class="table-disable" id="${item.key}"><h4 class="fount" style="color: black">${item.key}号桌,不可用</h4></div>
                     </c:if>
 
                 </c:forEach>

@@ -3,7 +3,7 @@
 <mapper namespace="edu.zut.mapper.OrderMapper" >
   
     <select id="getAll" resultType="edu.zut.entity.Order">
-        SELECT * FROM `order`
+        SELECT * FROM `order` ORDER BY createTime DESC
     </select>
 
     <select id="findById" parameterType="java.lang.Integer" resultType="edu.zut.entity.Order">
@@ -11,7 +11,7 @@
     </select>
 
     <select id="findByStatus" parameterType="java.lang.Integer" resultType="edu.zut.entity.Order">
-        select * from `order` where status=#{status}
+        select * from `order` where status=#{status} ORDER BY createTime DESC
     </select>
 
     <select id="getNum" resultType="java.lang.Integer">

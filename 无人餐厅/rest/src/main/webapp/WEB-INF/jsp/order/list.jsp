@@ -100,7 +100,7 @@ function confirmDelete(id){
 <script>
 	var websocket = null;
 	if ('WebSocket' in window){
-		websocket = new WebSocket('ws://');
+		websocket = new WebSocket('ws://localhost:8080/webSocket');
 	} else {
 		alert("该浏览器不支持");
 	}
@@ -111,10 +111,18 @@ function confirmDelete(id){
 		console.log("关闭连接");
 	}
 	websocket.onmessage = function (event) {
-		console.log("收到消息："+event.data);
+		if(confirm(event.data)){
+			$.post(
+					'${pageContext.request.contextPath}/api/order/add?accept=1&content='+event.data
+			)
+		}else {
+			$.post(
+					'${pageContext.request.contextPath}/api/order/add?accept=0&content='+event.data
+			)
+		}
+        $('html').load('/api/order/listOrder');
 	}
 	websocket.onerror = function () {
-		alert("websocket通信发生错误！");
 	}
 	websocket.onbeforeunload = function () {
 		websocket.close();

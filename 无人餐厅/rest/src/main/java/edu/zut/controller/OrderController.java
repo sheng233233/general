@@ -8,6 +8,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 @Controller
@@ -73,4 +76,20 @@ public class OrderController {
         mv.setViewName("order/detail");
         return mv;
     }
+
+    @RequestMapping("add")
+    public void add(Integer accept,String content){
+        System.out.println(accept);
+        String[] lines = content.split("!");
+        Order order = new Order();
+        String TID = lines[0].replaceAll("号桌产生新的订单","");
+        order.setTid(Integer.parseInt(TID));
+        order.setContent(lines[1]);
+        order.setStatus(accept);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        order.setCreateTime(sdf.format(new Date()));
+        System.out.println(order);
+        os.add(order);
+    }
+
 }

@@ -4,7 +4,9 @@ import edu.zut.entity.Food;
 import edu.zut.entity.Order;
 import edu.zut.entity.Result;
 import edu.zut.service.FoodService;
+import edu.zut.service.OrderService;
 import edu.zut.service.TableService;
+import edu.zut.service.WebSocket;
 import edu.zut.utils.ResultFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -23,6 +25,9 @@ public class CustomerController {
     @Autowired
     FoodService fs;
 
+
+    @Autowired
+    private WebSocket webSocket;
 
 
     @ResponseBody
@@ -43,14 +48,23 @@ public class CustomerController {
     }
 
 
-    @RequestMapping("")
+    @RequestMapping("/api/order/cart")
     public void saveOrder(Order order){
-
-
-
+        if (order!=null){
+            //发送websocket消息
+            webSocket.sendMessage(order.getTid()+"号桌产生新的订单!\n"+order.getContent());
+        }else {
+            webSocket.sendMessage(null);
+        }
 
     }
 
+    @RequestMapping("/api/table/order")
+    public void revoke(Integer tableNum) {
+        if (tableNum != null){
+            ts.revoke(tableNum);
+        }
+    }
 
 
 
