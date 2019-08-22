@@ -14,6 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -27,14 +28,14 @@ public class FoodController {
     @Autowired
     FoodService fs;
 
-    String truePath = "";
+
 
     @RequestMapping("/listFood")
     public ModelAndView getAll(String pageNum){  //接收当前页
         ModelAndView mv = new ModelAndView();
         List<Food> list = fs.getAll();
         for (Food food:list) {
-            
+
         }
 
         Page page = new Page();

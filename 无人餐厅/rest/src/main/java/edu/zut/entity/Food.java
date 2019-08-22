@@ -11,6 +11,8 @@ public class Food {
 
     private String img;
 
+    private byte[] imgData;
+
     private String type;
 
     private int count;
@@ -53,6 +55,14 @@ public class Food {
 
     public void setImg(String img) {
         this.img = img == null ? null : img.trim();
+    }
+
+    public byte[] getImgData() {
+        return imgData;
+    }
+
+    public void setImgData(byte[] imgData) {
+        this.imgData = imgData;
     }
 
     public String getType() {

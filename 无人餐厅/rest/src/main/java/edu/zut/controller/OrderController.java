@@ -79,16 +79,14 @@ public class OrderController {
 
     @RequestMapping("add")
     public void add(Integer accept,String content){
-        System.out.println(accept);
         String[] lines = content.split("!");
         Order order = new Order();
         String TID = lines[0].replaceAll("号桌产生新的订单","");
         order.setTid(Integer.parseInt(TID));
         order.setContent(lines[1]);
         order.setStatus(accept);
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         order.setCreateTime(sdf.format(new Date()));
-        System.out.println(order);
         os.add(order);
     }
 

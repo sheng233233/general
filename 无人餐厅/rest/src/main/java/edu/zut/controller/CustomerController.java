@@ -13,6 +13,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
+import java.io.File;
+import java.io.FileInputStream;
 import java.util.HashMap;
 import java.util.List;
 
@@ -30,9 +33,21 @@ public class CustomerController {
     private WebSocket webSocket;
 
 
+    static String truePath = ""; //真实路径
+
+    private byte[] getDataByImg(String img) throws  Exception{
+        File file = new File(truePath+img);
+        FileInputStream input = new FileInputStream(file);
+        byte[] data = new byte[(int)file.length()];
+        input.read(data);
+        input.close();
+        return data;
+    }
+
     @ResponseBody
     @RequestMapping("/api/table/request")
-    public Result getTableAndFoods(){
+    public Result getTableAndFoods(HttpServletRequest request) throws Exception{
+        truePath = request.getRealPath("image").replaceAll("image","");
         HashMap<String, Object> hashMap = new HashMap<>();
         int tabluNum = ts.distribute();
         List<Food> foods = fs.getAll();
@@ -42,10 +57,15 @@ public class CustomerController {
         if (foods == null){
             return ResultFactory.buildFailResult("暂无菜单");
         }
+        for (Food food:foods) {
+            food.setImgData(getDataByImg(food.getImg()));
+        }
         hashMap.put("tableNum",tabluNum);
         hashMap.put("menu",foods);
         return ResultFactory.buildSuccessResult(hashMap);
     }
+
+
 
 
     @RequestMapping("/api/order/cart")
