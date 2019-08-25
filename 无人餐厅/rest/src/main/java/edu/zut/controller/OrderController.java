@@ -93,7 +93,7 @@ public class OrderController {
         //删除
         os.delete(id);
         mv.addObject("order",null);
-        mv.setViewName("order/detail");
+        mv.setViewName("redirect:/api/order/listOrder");
         return mv;
     }
 

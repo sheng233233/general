@@ -10,6 +10,7 @@ import edu.zut.service.WebSocket;
 import edu.zut.utils.ResultFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -86,6 +87,7 @@ public class CustomerController {
      * 用户提交订单,处理后向后台发送消息
      * @param order
      */
+    @ResponseBody
     @RequestMapping("/api/order/cart")
     public Result saveOrder(Order order){
         if (order!=null){
@@ -102,6 +104,7 @@ public class CustomerController {
      * 回收桌号,将桌号池中相应桌号置为可用
      * @param tableNum
      */
+    @ResponseBody
     @RequestMapping("/api/table/order")
     public Result revoke(Integer tableNum) {
         if (tableNum != null){
