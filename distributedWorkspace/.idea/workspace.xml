@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f124a08-d755-497c-9d4e-8d37e408dd44" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/tao_parent/target/" />
+    <ignored path="$PROJECT_DIR$/tao_common/target/" />
+    <ignored path="$PROJECT_DIR$/tao_manager/target/" />
+    <ignored path="$PROJECT_DIR$/tao_pojo/target/" />
+    <ignored path="$PROJECT_DIR$/tao_manager/tao_manager_pojo/target/" />
+    <ignored path="$PROJECT_DIR$/tao_manager/tao_manager_mapper/target/" />
+    <ignored path="$PROJECT_DIR$/tao_manager/tao_manager_service/target/" />
+    <ignored path="$PROJECT_DIR$/tao_manager/tao_manager_web/target/" />
+    <ignored path="$PROJECT_DIR$/tao_rest/target/" />
+    <ignored path="$PROJECT_DIR$/tao_portal/target/" />
+    <ignored path="$PROJECT_DIR$/tao_search/target/" />
+    <ignored path="$PROJECT_DIR$/tao_sso/target/" />
+    <ignored path="$PROJECT_DIR$/tao_order/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="distributedWorkspace" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/service/impl/ItemServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/service/impl/SearchServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tao_sso/src/main/java/com/zy/sso/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/intercepter/LoginIntercepter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/controller/RedisController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/controller/ItemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/controller/itemcatController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/controller/ContentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tao_sso/src/main/java/com/zy/sso/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/service/impl/RedisServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>价格</find>
+      <find>total</find>
+      <find>ad1</find>
+      <find>图书</find>
+      <find>jsonpFunction</find>
+      <find>加入</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tao_sso/src/main/java/com/zy/sso/impl/JedisDaoImpl.java" />
+        <option value="$PROJECT_DIR$/tao_sso/src/main/resources/resource/db.properties" />
+        <option value="$PROJECT_DIR$/tao_sso/src/main/resources/spring/applicationContext-jedis.xml" />
+        <option value="$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/service/impl/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/tao_manager/tao_manager_pojo/src/main/java/com/zy/pojo/TbUser.java" />
+        <option value="$PROJECT_DIR$/tao_sso/src/main/resources/resource/resource.properties" />
+        <option value="$PROJECT_DIR$/tao_sso/src/test/java/MyTest.java" />
+        <option value="$PROJECT_DIR$/tao_sso/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/tao_sso/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/tao_sso/src/main/webapp/WEB-INF/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/tao_common/pom.xml" />
+        <option value="$PROJECT_DIR$/tao_sso/src/main/java/com/zy/sso/service/UserService.java" />
+        <option value="$PROJECT_DIR$/tao_sso/src/main/java/com/zy/sso/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/tao_sso/src/main/java/com/zy/sso/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/tao_common/src/main/java/com/zy/common/utils/CookieUtils.java" />
+        <option value="$PROJECT_DIR$/tao_portal/src/main/resources/resource/Resource.properties" />
+        <option value="$PROJECT_DIR$/tao_portal/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/tao_sso/src/main/java/com/zy/sso/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/intercepter/LoginIntercepter.java" />
+        <option value="$PROJECT_DIR$/tao_portal/src/main/webapp/js/taotao.js" />
+        <option value="$PROJECT_DIR$/tao_rest/src/test/java/com/zy/rest/JedisTest.java" />
+        <option value="$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/pojo/CartItem.java" />
+        <option value="$PROJECT_DIR$/tao_portal/src/main/webapp/WEB-INF/jsp/item.jsp" />
+        <option value="$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/service/CartService.java" />
+        <option value="$PROJECT_DIR$/tao_portal/src/main/webapp/js/cart.js" />
+        <option value="$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/service/impl/CartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/tao_manager/tao_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/tao_manager/tao_manager_web/src/main/java/com/zy/controller/ContentCategoryController.java" />
+        <option value="$PROJECT_DIR$/tao_manager/tao_manager_service/src/main/java/com/zy/service/impl/ContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/tao_portal/pom.xml" />
+        <option value="$PROJECT_DIR$/tao_order/src/main/java/com/zy/order/pojo/Order.java" />
+        <option value="$PROJECT_DIR$/tao_order/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/tao_order/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/tao_order/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/tao_order/pom.xml" />
+        <option value="$PROJECT_DIR$/tao_order/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/tao_rest/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/tao_search/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/tao_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/tao_manager/tao_manager_mapper/src/main/java/com/zy/mapper/TbOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/tao_order/src/test/java/com/zy/order/UUIDTest.java" />
+        <option value="$PROJECT_DIR$/tao_order/src/main/java/com/zy/order/pojo/Status.java" />
+        <option value="$PROJECT_DIR$/tao_order/src/main/java/com/zy/order/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/tao_order/src/main/java/com/zy/order/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/tao_common/src/main/java/com/zy/common/utils/IDUtils.java" />
+        <option value="$PROJECT_DIR$/tao_order/src/main/java/com/zy/order/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/tao_manager/tao_manager_web/src/main/webapp/WEB-INF/jsp/item-list.jsp" />
+        <option value="$PROJECT_DIR$/tao_manager/tao_manager_web/src/main/java/com/zy/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/tao_search/pom.xml" />
+        <option value="$PROJECT_DIR$/tao_rest/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mavenRepositories\repositorySu01" />
+        <option name="mavenHome" value="D:/学习软件/Apache/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\mavenRepositories\repositorySu01\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="tao_sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="y" value="-15" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="intercepter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributedWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributedWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="tao_sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571815248352" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspaces\distributedWorkspace\tao_order\src\main\resources" />
+      <recent name="D:\Workspaces\distributedWorkspace\tao_manager\tao_manager_web\src\main" />
+      <recent name="D:\Workspaces\distributedWorkspace\tao_portal\src\main\webapp\css" />
+      <recent name="D:\Workspaces\distributedWorkspace\tao_portal\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\Workspaces\distributedWorkspace\tao_common\src\main\java\com\zy\common\utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspaces\distributedWorkspace\tao_sso\src\main\webapp\WEB-INF" />
+      <recent name="D:\Workspaces\distributedWorkspace\tao_sso\src\main\webapp" />
+      <recent name="D:\Workspaces\distributedWorkspace\tao_portal\src\main\webapp" />
+      <recent name="D:\Workspaces\distributedWorkspace\tao_manager\tao_manager_web\src\main\webapp\WEB-INF" />
+      <recent name="D:\Workspaces\distributedWorkspace\tao_manager\tao_manager_web\src\main\resources\resource" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.UUIDTest.test">
+    <configuration name="JedisTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tao_rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zy.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zy.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.zy.rest.JedisTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tao_sso" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UUIDTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tao_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zy.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zy.order" />
+      <option name="MAIN_CLASS_NAME" value="com.zy.order.UUIDTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tao_portal [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/tao_portal" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="tao_sso [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/tao_sso" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UUIDTest.test" />
+        <item itemvalue="JUnit.JedisTest.test2" />
+        <item itemvalue="Maven.tao_portal [tomcat7:run]" />
+        <item itemvalue="Maven.tao_sso [tomcat7:run]" />
+        <item itemvalue="JUnit.MyTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\dell\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f124a08-d755-497c-9d4e-8d37e408dd44" name="Default Changelist" comment="" />
+      <created>1567499155562</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567499155562</updated>
+      <workItem from="1567499159151" duration="6198000" />
+      <workItem from="1567560653987" duration="4251000" />
+      <workItem from="1567566374996" duration="20448000" />
+      <workItem from="1567646933781" duration="15060000" />
+      <workItem from="1567733551640" duration="1466000" />
+      <workItem from="1567736243340" duration="7184000" />
+      <workItem from="1567756675417" duration="10248000" />
+      <workItem from="1567820469536" duration="159000" />
+      <workItem from="1567839364228" duration="317000" />
+      <workItem from="1567863888412" duration="663000" />
+      <workItem from="1567992523290" duration="319000" />
+      <workItem from="1567993937046" duration="1982000" />
+      <workItem from="1567996902967" duration="254000" />
+      <workItem from="1567997200592" duration="4762000" />
+      <workItem from="1568002609977" duration="12018000" />
+      <workItem from="1568079513564" duration="29720000" />
+      <workItem from="1568167519078" duration="18933000" />
+      <workItem from="1568257844629" duration="16106000" />
+      <workItem from="1568458797794" duration="30000" />
+      <workItem from="1568597411829" duration="27668000" />
+      <workItem from="1568684278305" duration="4973000" />
+      <workItem from="1568691804567" duration="8891000" />
+      <workItem from="1568770626858" duration="22020000" />
+      <workItem from="1568856520374" duration="16166000" />
+      <workItem from="1568942532636" duration="26080000" />
+      <workItem from="1569029641463" duration="9084000" />
+      <workItem from="1569201678706" duration="907000" />
+      <workItem from="1570626855491" duration="1550000" />
+      <workItem from="1570672095469" duration="126000" />
+      <workItem from="1571813029528" duration="2013000" />
+      <workItem from="1571911125267" duration="872000" />
+      <workItem from="1571968129511" duration="697000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JedisTest_testSpringJedisSingle - 2019.09.11 at 11h 22m 05s.xml">
+      <configuration name="JedisTest.testSpringJedisSingle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisTest_test2 - 2019.09.16 at 16h 04m 49s.xml">
+      <configuration name="JedisTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test - 2019.09.17 at 12h 04m 52s.xml">
+      <configuration name="MyTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test - 2019.09.17 at 12h 08m 52s.xml">
+      <configuration name="MyTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisTest_test2 - 2019.09.18 at 16h 43m 44s.xml">
+      <configuration name="JedisTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UUIDTest_test - 2019.09.20 at 15h 34m 12s.xml">
+      <configuration name="UUIDTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UUIDTest_test - 2019.09.20 at 15h 35m 05s.xml">
+      <configuration name="UUIDTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UUIDTest_test - 2019.09.20 at 15h 35m 12s.xml">
+      <configuration name="UUIDTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UUIDTest_test - 2019.09.20 at 15h 35m 21s.xml">
+      <configuration name="UUIDTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UUIDTest_test - 2019.09.20 at 15h 35m 29s.xml">
+      <configuration name="UUIDTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="271165000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925926" visible="true" weight="0.1930295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.3297587" />
+      <window_info id="Web" order="7" sideWeight="0.50074077" side_tool="true" weight="0.47164592" />
+      <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.31625184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3806735" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.29575402" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.329429" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24896266" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.25938338" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.32908848" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="MavenRunConfiguration">
+        <watch expression="resultList" />
+        <watch expression="resultList" language="JAVA" />
+        <watch expression="json" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tao_manager/tao_manager_pojo/src/main/java/com/zy/pojo/TbOrderShipping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_manager/tao_manager_pojo/src/main/java/com/zy/pojo/TbOrderShippingExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_order/src/test/java/com/zy/order/UUIDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_manager/tao_manager_mapper/src/main/java/com/zy/mapper/TbOrderItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1944" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/pojo/CartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/pojo/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenRepositories/repositorySu01/com/github/pagehelper/pagehelper/3.4.2-fix/pagehelper-3.4.2-fix.jar!/com/github/pagehelper/PageHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mavenRepositories/repositorySu01/com/zy/tao_manager_mapper/1.0-SNAPSHOT/tao_manager_mapper-1.0-SNAPSHOT.jar!/com/zy/mapper/TbOrderMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_manager/tao_manager_service/src/main/java/com/zy/service/impl/ItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_order/src/main/java/com/zy/order/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_common/src/main/java/com/zy/common/utils/IDUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="65" column="45" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_manager/tao_manager_service/src/main/java/com/zy/service/ItemCatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_manager/tao_manager_mapper/src/main/java/com/zy/mapper/TbOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6822">
+          <caret line="379" column="30" selection-start-line="379" selection-start-column="23" selection-end-line="379" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_manager/tao_manager_pojo/src/main/java/com/zy/pojo/TbOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_manager/tao_manager_service/src/main/java/com/zy/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_manager/tao_manager_web/src/main/java/com/zy/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_order/src/main/java/com/zy/order/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_manager/tao_manager_web/src/main/webapp/WEB-INF/jsp/item-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="19" column="129" selection-start-line="19" selection-start-column="129" selection-end-line="19" selection-end-column="129" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_manager/tao_manager_service/src/main/java/com/zy/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_order/src/main/java/com/zy/order/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="123" column="15" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_order/src/main/java/com/zy/order/pojo/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_order/src/main/java/com/zy/order/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="47" selection-start-line="49" selection-start-column="20" selection-end-line="51" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_rest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="81" column="60" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_sso/src/main/java/com/zy/sso/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_sso/src/main/java/com/zy/sso/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="71" column="60" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_sso/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-828">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/service/impl/ItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_search/src/main/java/com/zy/search/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_search/src/main/java/com/zy/search/service/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_search/src/main/java/com/zy/search/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_search/src/main/java/com/zy/search/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/service/impl/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/service/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_sso/src/main/java/com/zy/sso/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_portal/src/main/java/com/zy/portal/intercepter/LoginIntercepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/controller/itemcatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_rest/src/main/java/com/zy/rest/service/impl/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tao_sso/src/main/java/com/zy/sso/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>tao_manager_web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tao_manager_mapper</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

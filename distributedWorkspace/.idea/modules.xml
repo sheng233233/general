@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/distributedWorkspace.iml" filepath="$PROJECT_DIR$/distributedWorkspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao_common/tao_common.iml" filepath="$PROJECT_DIR$/tao_common/tao_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao_manager/tao_manager.iml" filepath="$PROJECT_DIR$/tao_manager/tao_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao_manager/tao_manager_mapper/tao_manager_mapper.iml" filepath="$PROJECT_DIR$/tao_manager/tao_manager_mapper/tao_manager_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao_manager/tao_manager_pojo/tao_manager_pojo.iml" filepath="$PROJECT_DIR$/tao_manager/tao_manager_pojo/tao_manager_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao_manager/tao_manager_service/tao_manager_service.iml" filepath="$PROJECT_DIR$/tao_manager/tao_manager_service/tao_manager_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao_manager/tao_manager_web/tao_manager_web.iml" filepath="$PROJECT_DIR$/tao_manager/tao_manager_web/tao_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao_order/tao_order.iml" filepath="$PROJECT_DIR$/tao_order/tao_order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao_parent/tao_parent.iml" filepath="$PROJECT_DIR$/tao_parent/tao_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao_portal/tao_portal.iml" filepath="$PROJECT_DIR$/tao_portal/tao_portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao_rest/tao_rest.iml" filepath="$PROJECT_DIR$/tao_rest/tao_rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao_search/tao_search.iml" filepath="$PROJECT_DIR$/tao_search/tao_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tao_sso/tao_sso.iml" filepath="$PROJECT_DIR$/tao_sso/tao_sso.iml" />
+    </modules>
+  </component>
+</project>

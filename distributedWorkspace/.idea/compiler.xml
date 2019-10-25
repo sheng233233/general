@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tao_common" />
+        <module name="tao_manager_mapper" />
+        <module name="tao_manager_pojo" />
+        <module name="tao_manager_service" />
+        <module name="tao_manager_web" />
+        <module name="tao_order" />
+        <module name="tao_portal" />
+        <module name="tao_rest" />
+        <module name="tao_search" />
+        <module name="tao_sso" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tao_common" target="1.7" />
+      <module name="tao_manager" target="1.7" />
+      <module name="tao_manager_mapper" target="1.7" />
+      <module name="tao_manager_pojo" target="1.7" />
+      <module name="tao_manager_service" target="1.7" />
+      <module name="tao_manager_web" target="1.7" />
+      <module name="tao_order" target="1.7" />
+      <module name="tao_parent" target="1.7" />
+      <module name="tao_pojo" target="1.7" />
+      <module name="tao_portal" target="1.7" />
+      <module name="tao_rest" target="1.7" />
+      <module name="tao_search" target="1.7" />
+      <module name="tao_sso" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

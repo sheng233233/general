@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/tao_manager/tao_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/tao_order" />
+    <file type="web" url="file://$PROJECT_DIR$/tao_portal" />
+    <file type="web" url="file://$PROJECT_DIR$/tao_rest" />
+    <file type="web" url="file://$PROJECT_DIR$/tao_search" />
+    <file type="web" url="file://$PROJECT_DIR$/tao_sso" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/tao_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/tao_common/pom.xml" />
+        <option value="$PROJECT_DIR$/tao_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/tao_rest/pom.xml" />
+        <option value="$PROJECT_DIR$/tao_portal/pom.xml" />
+        <option value="$PROJECT_DIR$/tao_search/pom.xml" />
+        <option value="$PROJECT_DIR$/tao_sso/pom.xml" />
+        <option value="$PROJECT_DIR$/tao_order/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/tao_manager/tao_manager_mapper/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

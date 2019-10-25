@@ -64,6 +64,7 @@ public class CustomerController {
     @ResponseBody
     @RequestMapping("/api/table/request")
     public Result getTableAndFoods(HttpServletRequest request) throws Exception{
+        System.out.println(1111);
         truePath = request.getRealPath("image").replaceAll("image","");
         HashMap<String, Object> hashMap = new HashMap<>();
         int tabluNum = ts.distribute();

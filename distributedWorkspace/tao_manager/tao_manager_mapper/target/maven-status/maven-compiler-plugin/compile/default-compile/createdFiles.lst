@@ -1,0 +1,11 @@
+com\zy\mapper\TbOrderItemMapper.class
+com\zy\mapper\TbItemParamMapper.class
+com\zy\mapper\TbContentCategoryMapper.class
+com\zy\mapper\TbContentMapper.class
+com\zy\mapper\TbOrderShippingMapper.class
+com\zy\mapper\TbOrderMapper.class
+com\zy\mapper\TbItemDescMapper.class
+com\zy\mapper\TbItemCatMapper.class
+com\zy\mapper\TbUserMapper.class
+com\zy\mapper\TbItemParamItemMapper.class
+com\zy\mapper\TbItemMapper.class

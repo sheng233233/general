@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--父工程tao_parent-->
+    <parent>
+        <groupId>com.zy</groupId>
+        <artifactId>tao_parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <!--本工程tao_manager-->
+    <groupId>com.zy</groupId>
+    <artifactId>tao_manager</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <!--依赖工程tao_comment-->
+    <dependencies>
+        <dependency>
+            <groupId>com.zy</groupId>
+            <artifactId>tao_common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <!--子工程-->
+    <modules>
+        <module>tao_manager_pojo</module>
+        <module>tao_manager_mapper</module>
+        <module>tao_manager_service</module>
+        <module>tao_manager_web</module>
+    </modules>
+
+
+
+    <!-- tomcat插件 -->
+    <build>
+        <!-- 配置插件 -->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <port>8080</port>
+                    <path>/</path>
+
+                    <url>http://192.168.136.196:8081/manager/text</url>
+                    <username>tomcat</username>
+                    <password>tomcat</password>
+
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tao_portal:war">
+    <output-path>$PROJECT_DIR$/tao_portal/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tao_portal</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tao_portal.war">
+      <element id="artifact" artifact-name="tao_portal:war exploded" />
+    </root>
+  </artifact>
+</component>
